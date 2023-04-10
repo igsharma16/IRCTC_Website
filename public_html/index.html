@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/25063bd19a.js" crossorigin="anonymous"></script>        
+        
+        
+    </head>
+    <body id="by"> 
+        
+        <div id="bar">            
+            <a class="home" href="">ReserveIt!</a>
+            
+            <a class="icons" href="">
+                <i class="fa-sharp fa-solid fa-plane-departure"></i>
+                <span class="text">Flights</span>
+            </a>
+            
+
+            <a class="icons" href="">
+                <i class="fa-solid fa-train-subway"></i>
+                <span class="text">Trains</span>
+            </a>
+            
+
+            <a class="icons" href="">
+                <i class="fa-solid fa-bus"></i>
+                <span class="text">Buses</span>
+            </a>
+            
+
+            <a class="icons" href="">
+                <i class="fa-solid fa-hotel"></i>
+                <span class="text">Hotels</span>
+            </a>
+            
+
+            <a class="icons" href="">
+                <i class="fa-brands fa-cc-visa"></i>
+                <span class="text">Visa</span>
+            </a>
+            
+
+            <a class="icons" href="" style="margin-left: 220px;">
+                <i class="fa-solid fa-user"></i>
+                <span class="text onclk">Hey User &nbsp;&nbsp;<i class="fa-sharp fa-solid fa-angle-down"></i>
+                
+                    <ul type="none"  id="account">
+                        <button onclick="">Account</button>
+                        <button onclick="">Travellers</button>
+                        <button onclick="trip()">My Trips</button>
+                        <button onclick="mobile()   ">Mobile Apps</button>
+                        <button onclick="">Travel Stories</button>
+                        <button onclick="">Alert</button>
+                        <button onclick="">Customer Service</button>
+                        <button onclick="log()">Logout</button>
+                    </ul>
+            
+                </span>
+        </a>
+        
+        
+        </div>
+
+
+    <div id="back">
+        <form id="box">
+            <br>
+            <div class="form">
+        <span>
+            <label for="" class="lab">From</label><br>            
+            <input id="from" class = "inp" size="10" placeholder="Enter City" name="source">
+        </span>
+
+        <span>
+            <label for="To" class="lab">To</label><br>         
+            <input id="To" class = "inp" size="10" placeholder="Enter City" >
+        </span>
+        
+        <span>
+            <label for="" class="lab">Departure</label><br>
+            <input  id="Dept"  size="10" class="inp" type = "date">
+        </span>
+
+        <span>
+            <label for="ret" class="lab">Return</label><br>       
+            <input id="ret" class = "inp" size="10" placeholder="Return" type="Date">  
+        </span>
+
+        <span>
+            <label for="Travel" class="lab">Travellers | Class</label><br>
+            <input id="Travel" class = "inp" size="10" placeholder="2 | Economy">
+        </span>
+
+        <span><br>
+            <input class="search" type="submit" value="SEARCH">
+            
+        </span>   
+        </div>
+         
+    </form>
+
+        <span id="place"><span id="pname">Agra</span> <br> <span style="font-size: 15px">India</span></span>
+    </div>        
+
+
+
+<br><br><br>
+<div id="borders">
+<h1 style="font-family:Arial, Helvetica, sans-serif;color:crimson;text-align:center;word-spacing: 10px;">Best Flight Deals of the Day</h1>
+<div id="tours">
+    
+
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a83e4b032e338f11b77.jpg">
+    <div class="imgtxt">Jalhandar</div></a>
+
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a70e4b032e338f0ee67.jpg">
+    <div class="imgtxt">New Delhi</div></a>
+
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a6de4b032e338f0e68f.jpg">
+    <div class="imgtxt">Patna</div></a>
+    
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a85e4b032e338f1218b.jpg">
+    <div class="imgtxt">Gwalior</div></a>
+        
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a78e4b032e338f101a1.jpg">
+    <div class="imgtxt">Leh</div></a>
+    
+    <a href=""><img src="https://images.ixigo.com/node_image/f_auto,t_medium/entityId/503b2a63e4b032e338f0cd77.jpg">
+    <div class="imgtxt">Srinagar</div></a>
+</div>
+</div>
+
+<a href="" ><img id="add" src="https://rocket.ixigo.com/hotels/mktimages/final_banner_home_page_2x.png"></a>
+
+<br><br><br>
+
+<div id="app">
+    <img src="pictures\app.webp">
+</div>
+
+
+<br><br><br>
+<form>
+    <div id="letter">
+        <span class="subs">
+        Planning for your Next Trip?<br></span>
+        <span class="subs" style="font-size: 11px;">
+        Subscribe to our NewsLetter. Get the latest travel trends and deals!
+    </span>
+        <span id="mail">
+            <label for="m" class="em1">&nbsp;E-Mail</label><br>
+            <input type="email" name="emailadd" size="30"  placeholder="igsharma1602@gmail.com" class="em2">
+        </span>
+
+        <span ><input class="search" type="submit" value="SUBSCRIBE"> </span>
+    </div>
+</form>
+<div id="description" >
+    <a id="time"></a>
+    <div id="about">
+        <br>
+        <div class="select">
+            <button onclick="read(0)" class="but">ABOUT IXIGO</button>
+            <button onclick="read(1)" class="but">POPULAR FLIGHT ROUTES</button>
+            <button onclick="read(2)" class="but">INFO</button>
+            <button onclick="read(3)" class="but">POPULAR BUS ROUTES</button>
+            <button onclick="read(4)" class="but">AIRLINES</button>
+        </div>
+        <hr>
+        <h3 id="andread">About Ixigo</h3>
+        
+        Launched in 2007, ixigo is a technology company focused on empowering Indian travellers to plan, book and 
+        manage their trips across rail, air, buses and hotels. We assist travellers in making smarter travel
+        decisions by leveraging artificial intelligence, machine learning, and data science led innovations on our
+        OTA platforms, comprising our websites and mobile applications. Our vision is to become the most 
+        customer-centric travel company, by offering the best customer experience to our users. Our focus on
+        travel utility and customer experience for travellers in the 'next billion user' segment is driven by technology, cost-efficiency
+        and our culture of innovation has made us India's leading travel ecosystem for the 'next billion users'.
+        
+    </div>
+
+
+
+
+    <div class="share">
+    <a href="https://www.twitter.com/igsharma__" target="_blank"><i class="fa-brands fa-twitter" style="color:dodgerblue;"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube" style="color:red;"></i></a>
+    <a href="https://www.instagram.com/igsharma__" target="_blank"><i class="fa-brands fa-square-instagram" style="color:crimson    ;"></i></a>
+    <a href="https://www.linkedin.com/in/gulshan-sharma-06b4a3235/" target="_blank"><i class="fa-brands fa-linkedin" style="color:blue"></i></a>
+    <a href="tel:+917404544298" target="_blank"><i class="fa-solid fa-phone" style="color:darkgreen;"></i></a>
+    <a href="mailto:igsharma1602@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color:black;"></i></a>
+    <a href="https://www.github.com/igsharma16" target="_blank"><i class="fa-brands fa-github"></i></a>
+    
+    </div>
+</div>
+
+
+    <script src = "index.js"></script>    
+    </body>
+</html>

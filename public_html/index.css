@@ -1,0 +1,330 @@
+*{
+    outline:none;
+}
+
+body
+{
+background-color:white;
+}
+
+#bar
+{
+    margin-top:23px;
+    height:50px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.home
+{
+    
+    background-color: rgba(250 , 0 , 0 , 0.7);
+    height:35px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.icons
+{
+    font-size: 22px;
+    padding-top:10px;
+    padding-left:30px;
+    color:crimson;
+}
+.text
+{
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:crimson;
+}
+
+
+.text:hover
+{
+    color:blue;
+}
+
+#bar a
+{
+    text-decoration: none;
+
+}
+
+
+.onclk
+{
+        position:relative;
+}
+.onclk:hover #account
+{
+    visibility: visible;
+}
+#account
+{   
+    visibility:hidden;
+    background-color: white;
+    position:absolute;
+    top:10px;
+    right:-25px;
+    z-index:1;
+    width:160px;
+}
+#account button
+{
+    list-style-position: outside;
+    padding-top: 20px;
+    border:none;
+    background-color: white;
+    padding-bottom: 13px;
+    letter-spacing: 1.6px;
+    color:black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#account button:hover
+{
+    visibility: visible;
+    color:crimson;
+    font-weight: bold;
+}
+
+#back
+{
+    background:url("https://wallpapercave.com/wp/wp8528247.jpg");
+    background-size:contain;
+    height: 540px;
+    background-size: cover;
+    width:100%;
+}
+
+#box
+{
+    position:absolute;
+    opacity:0.9;
+    left:5%;
+    bottom:100px;
+    width:90%;
+    height:130px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.form
+{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.lab{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+    letter-spacing: 1.5px;    
+    color:darkolivegreen;
+    padding-bottom:2px;
+    
+}
+
+.inp{
+font-family: Arial, Helvetica, sans-serif;
+font-size:13px;
+letter-spacing: 1.3px;    
+color:darkolivegreen;
+border:none;
+border-bottom: 1px darkolivegreen solid;
+padding:4px;
+}
+
+
+
+.search
+{
+    position:absolute;
+    bottom:28px;
+    border-radius: 12px;
+    right:2%;
+    border:2px orange outset;
+    padding:3px 20px 3px 20px;
+    letter-spacing: 2px;
+    color:white;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+#place
+{
+    position:absolute;
+    right:80px;
+    top:120px;
+    color:white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#letter
+{
+    position: relative;
+    height: 70px;
+    padding-left: 30px;
+    max-width:100%;
+background-color: darkslateblue;
+color:white;
+padding-top: 20px;
+box-shadow:0px -100px rgba(0 , 0 , 0 , 0.1);
+}
+.subs
+{
+    
+    letter-spacing: 1.7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    line-height: 20px;
+}
+#mail
+{
+    position:absolute;
+    top:20px;
+    right:200px;
+}
+.em2{
+    border:none;
+    background-color: darkslateblue;
+    border-bottom: 1px white solid;
+    line-height: 20px;
+    color:white;    
+    letter-spacing: 2px;
+}
+.em1
+{
+    line-height: 20px;
+    font-size: 10px;
+    color:orangered;
+    letter-spacing: 2px;
+}
+
+#tours
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+#borders
+{
+    border:0px solid black;
+    margin:20px;
+    background-color: rgba(200 , 200 , 255 , 0.1);
+    
+}
+
+#tours img
+{
+    height: 200px;
+    box-shadow: 0px 50px rgba(200 , 40 , 255 , 0.1);
+}
+.imgtxt
+{
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+    color:lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#tours > a
+{
+    text-decoration: none;
+    margin:40px;
+}
+
+#description 
+{
+    position:relative;
+    max-width: 100%;
+    background-color:rgba(0 , 0 , 0 , 1);
+    height: 350px;
+    color:white;
+}
+
+.share
+{
+    position:absolute;
+    right:0px;
+    left:0px;
+    background-color:wheat;
+    bottom:0px;
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.share a
+{
+    
+    padding:3px;
+    font-size:24px;
+    margin-top:12px;
+    margin-left: 20px;margin-right: 20px;
+}
+
+#about
+{
+    color:rgba(255 , 255, 255 , 0.7);
+    max-width:94%;
+    text-align: justify;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height:20px;
+
+}
+
+.select
+{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.select button
+{
+    background-color: black;
+    color:crimson;
+    font-weight: bold;
+    font-size: 15px;
+    border:none;
+}
+#time
+{
+    position: absolute;
+    bottom:60px;
+    right:50px;
+    font-size: 16px;
+    color:white;
+}
+
+#add
+{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 100px rgba(0 , 0 , 0 , 0.1);
+}
+
+#app img
+{
+    margin-top:40px;
+    margin-left: 200px;
+    height:350px;
+    width:200px;
+    
+}
